@@ -1,0 +1,1 @@
+rsync -atuvzh ./ "$1":"$2" --include='**weights**' --exclude='/.gitignore' --exclude='/.git' --filter=':- .gitignore'

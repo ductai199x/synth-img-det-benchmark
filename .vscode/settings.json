@@ -1,0 +1,9 @@
+{
+    "python.analysis.exclude": [
+        "**/refactoring"
+    ],
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        "refactoring"
+    ]
+}

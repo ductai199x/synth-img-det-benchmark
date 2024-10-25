@@ -1,0 +1,13 @@
+**__pycache__**
+
+**lightning_logs**
+**checkpoints**
+
+**scratch**
+**log_dump**
+logs/
+*.log*
+*.pth
+*.pkl
+**refactoring**
+**weights**

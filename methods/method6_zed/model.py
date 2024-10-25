@@ -20,7 +20,6 @@ class ZEDModel(nn.Module):
         assert selected_feature in available_features, f"selected_feature must be one of {available_features}"
 
         self.idx_of_feature = feature_to_idx[selected_feature]
-        print(self.idx_of_feature)
 
         self.srec = srec
         self.srec_loss_fn = self.srec.loss_fn
